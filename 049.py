@@ -1,0 +1,3 @@
+num = int(input('Digite um número para sua tabuada:'))
+for c in range(0,10):
+    print('{} x {} = {}'.format(num, c, num*c))
